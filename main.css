@@ -101,6 +101,21 @@ img {
     width: 30%;
   height: auto;
 }
+
+.more p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    color: #B20431;
+    font-size: 15pt;
+    padding-bottom: 20px;
+    margin-top: -5px;
+    
+}
+
+.more a: link {
+    color: #B20431;
+}
+
 /*.jumbotron .container {
     position: relative;
     top: 91px;
