@@ -1,3 +1,4 @@
+
 .navBar a {
     color: #5a5a5a;
     font-size: 13px;
@@ -56,19 +57,14 @@
     text-align: left;
     top: 69px;
     left: 40px;
-    border-style: solid;
-    border-bottom-style: hidden;
+    //border-style: solid;
+
+    //border-bottom-style: hidden;
     //border-bottom-right-radius: 100px;
+    //border-right-width: 10px;
     padding-left: 10px;
-    padding-top: -10px;
-    
+    padding-top: -10px;    
 }
-
-
-/*#borderLeft {
-    border-style: dashed
-} */
-
 
 .jumbotron p {
     color: #F0F8FF;
@@ -81,10 +77,50 @@
     top: 70px;
     left: 40px;
     padding-left: 10px;
-    border-style: ridge;
+   // border-style: ridge;
    // border-top: hidden;
     
 }
+
+
+/* //////////////////////////////////////// */
+/* ///////////MASONRY TYPE LAYOUT //////////*/
+/* //////////////////////////////////////// */
+
+
+#container {
+    background-color: whitesmoke;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#content {
+    padding-top: 30px;
+    -moz-column-count: 4;
+    -moz-column-gap: 0px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 0px;
+    column-count: 4;
+    column-gap: 0px;
+    width: 1200px;
+    
+}
+
+#content img {
+    padding: 10px;
+    max-width: fixed;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 0px;
+    width: 100%;
+    
+}
+
+/* //////////////////////////////////////// */
+/* //////////////////////////////////////// */
+
+
+
 
 .contain {
     width: 96%;
@@ -108,7 +144,8 @@ img {
     color: #B20431;
     font-size: 15pt;
     padding-bottom: 20px;
-    margin-top: -5px;
+   // margin-top: -5px;
+    padding-top: 30px;
     
 }
 
@@ -116,8 +153,15 @@ img {
     color: #B20431;
 }
 
-/*.jumbotron .container {
-    position: relative;
-    top: 91px;
-    left: 19px
-} */
+.frame {
+    margin-top: 20px;
+}
+
+footer {
+    color: #B20431;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color: slategrey;
+    font-weight: 500;
+}
